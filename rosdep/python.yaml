@@ -5316,6 +5316,10 @@ python3-cookiecutter:
   ubuntu:
     '*': [python3-cookiecutter]
     focal: null
+python3-couchdb-pip:
+  ubuntu:
+    pip:
+      packages: [couchdb]
 python3-coverage:
   debian: [python3-coverage]
   fedora: [python3-coverage]
