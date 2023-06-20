@@ -6222,6 +6222,10 @@ python3-hypothesis:
     fedora: [python3-hypothesis]
     gentoo: [dev-python/hypothesis]
     ubuntu: [python3-hypothesis]
+python3-icmplib-pip:
+    ubuntu:
+        pip:
+            packages: [icmplib]
 python3-ifcfg:
     debian:
         buster: [python3-ifcfg]
